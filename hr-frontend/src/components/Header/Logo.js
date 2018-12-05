@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Logo = props => {
     return (
         <div className="header-logo">
-           <p>Logo</p>
+           <p>Logo </p>
         </div>
     );
 };
