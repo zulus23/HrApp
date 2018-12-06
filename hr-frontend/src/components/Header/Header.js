@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import './header.scss'
 import SearchKeyPad from "./SearchKeyPad";
 import Logo from "./Logo";
@@ -17,6 +17,6 @@ class Header extends Component {
     }
 }
 
-Header.propTypes = {};
+/*Header.propTypes = {};*/
 
 export default Header;

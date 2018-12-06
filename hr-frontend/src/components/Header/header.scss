@@ -1,7 +1,5 @@
 .header-conteiner{
-
   width: 100%;
-  background-color: aquamarine;
 }
 .header-searchpad {
   width: 20em;
@@ -14,8 +12,35 @@
 
 .header-logo{
   width: 200px;
-  border: solid 1px;
-  background-color: antiquewhite;
-  border-radius: 3px;
-  box-shadow: 0.1em 0.1em 0.5em black;
+  height: 1.25em;
+  background-color: #fff;
+  color: #a0a0a0;
+
+  border-radius: 0.1em;
+  text-align: center;
+  align-content: center;
+  margin-left: 10px;
+  display: flex;
+}
+.header-logo p {
+  margin: 0;
+  font-size: 2em;
+}
+.header-logo-effect{
+  position: relative;
+}
+.header-logo-effect:before{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 13px;
+  left: 9px;
+  width: 30%;
+  top: 80%;
+  /*border: 1px solid yellow;*/
+  background: #b1b1b1;
+  max-width:300px;
+
+  box-shadow: 0 15px 10px #b1b1b1;
+  transform: rotate(-3deg);
 }
